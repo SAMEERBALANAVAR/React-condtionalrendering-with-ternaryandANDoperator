@@ -1,6 +1,6 @@
 import react from "react";
 
-var isLoggedIn = false;
+var isLoggedIn = true;
 function renderCondtionally() {
   if (isLoggedIn === true) {
     return <h1>Hello</h1>;
